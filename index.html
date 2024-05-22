@@ -31,8 +31,7 @@
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#blog">Blog</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -42,21 +41,14 @@
 
 				<!-- Main -->
 					<div id="main">
-
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
 						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+							<article id="blog">
+								<h2 class="major">Blog</h2>
+								<span class="image main"><img src="images/BlogImage.jpg" alt="" /></span>
+								<ul>
+									<li><a href="#GPT4-o">16/05/2024 - GPT4-o</a></li>
+									<li><a href="#Mojo">22/05/2024 - Mojo </a></li>
+								</ul>
 							</article>
 
 						<!-- About -->
@@ -95,6 +87,120 @@
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
+							</article>						
+							
+							<!-- Blog Post GPT4-o -->
+							<article id="GPT4-o">
+								<h2>GPT4-o</h2>
+								<p>Whether you're solving a maths problem or chatting to a friend in spanish, sometimes you wish you had a personal assistant to make it all a breeze - now you can with Open AI's newest model.</p> 
+								<p>You're probably farmiliar with the GPT hype over the last few years and Sora from a few months back but this is a whole other level. This new model can reason in realtime across audio, vision, and text.</p> 
+								
+								<h3>GPT4-o - An Overview:</h3>
+								<p>On the 13th of May 2024 OpenAI released their latest model (GPT4-o) with the aim of having a more human like interaction and the “o” standing for “omni”. It has all the capabilities of GPT4 that we’re all used to but with the emphasis on understanding and interacting with the world more similarly to how we do.</p>
+								
+								<h3>Key Features:</h3>
+								<p>With the previous GPT-3.5 and GPT-4 you could use a voice mode to talk to them but they had latencies of 2.8 and 5.4 seconds so not great. This is in part, because it is 3 models used in succession: a speech to text, a GPT version, then a text to speech. These layers meant that the tone, speech speed etc were lost making it harder to interpret the user. GPT-4o is a single end-to-end trained model meaning that all inputs are processed by the same network. This leads to a latency as low as 232 milliseconds with an average of 320 milliseconds, when compared to a human conversation which is 200–300 milliseconds so not that far off.</p>
+								<p>Neural networks have not had an easy time analysing and processing video but this new model can interpret video streams, along with text and audio, in real time. It also supports 50 different languages for chatting, creating content, developing apps or translating a conversation between the two. It’s vision capabilities can perceive emotions and facial expressions and alter it’s own tone to fit the setting like a bedtime story or a set of instructions. Not only that but this is now free for all to upload documents and screen shots. It also remembers past conversations and allows you to search the web.</p>						
+								
+								<h3>Technical Details:</h3>
+								<p>In all languages we can see that the word error rate (%) for GPT4-o is lower than the previous speech to text model from Open AI, Whisper. With one of the smaller gains from about 6% down to around 3% for Western European languages but some errors as high as 34% decreased to 17% for Sub-Saharan African languages.</p>						
+								<p>We can see all the Automatic Speech Recognition (ASR) results here:</p>
+								<img src="images/BlogImages/GPT4-o_1.png">
+								<p>GPT4-o also out performs many of the current LLM’s that are available on the Massive Multi-discipline Multimodal Understanding <a href="https://mmmu-benchmark.github.io/">(MMMU)</a> which assesses perception, knowledge, and reasoning. Some of the other areas it out performs the other LLM’s are <a href="https://mathvista.github.io/">MathVista</a> and <a href="https://www.docvqa.org/">DocVQA</a>.</p>
+
+
+								<h3>How To Get Started:</h3>
+								<p>Although I’ve not had any luck accessing it, the OpenAI website claims that there is a free version, and so does their web API:</p>			
+								<img src="images/BlogImages/GPT4-o_2.png">
+								<p>If you are able to access the free version and you’re a heavy user, it may be worth upgrading since you’ll be granted up to 5 times more usage compared to free account users. The new text and image capabilities are already rolling out to GPT Plus and team subscribers with the GPT Plus subscribers also getting access to the voice mode assistant. There is also a playground available <a href="https://platform.openai.com/playground/chat?mode=chat&model=gpt-4o&models=gpt-3.5-turbo-16k">here</a>.</p>
+								<p>If you’re more software inclined, you’ll be happy to hear that there is an API available as a text and vision model so you can integrate it into any of your applications.</p>
+
+								<h3>Conclusion:</h3>
+								<p>This new model certainly has some amazing potential to solve many problems given it’s speed and usability. I’d love to give it a go and let me know if you’ve had any success with it. I have seen that there are some <a href="https://vimeo.com/945591584">artefacts</a> that appear in the speech and GPT4-o does not score above a medium risk for any of OpenAI’s evaluations. I’ll keep an eye out to see what comes next.</p>
+
+							</article>
+
+							<!-- Blog Post Mojo🔥 -->
+							<article id="Mojo">
+								<h2>Make Your Python Code 68000 Times Faster!</h2>
+								<p>If you’ve ever done any serious machine learning with python you’ll know that it can be painfully slow with a GPU and impossible without one. You no longer have to imagine that you could have the performance of C without having to learn it — you can have it with python code. In this article I’ll introduce <a href="https://www.modular.com/max/mojo">Mojo 🔥</a>, the programming language for all AI developers.</p>
+								
+								<h3>Mojo🔥: AN OVERVIEW:</h3>
+								<p>In January 2022, two ex-Google employees, Chris Lattner and Tim Davis thought AI was overly complicated and too fragmented. Among many other achievements, Chris built AI and core systems at some of the top companies including three of the magnificent 7 and Tim helped build, found and scale large parts of Google’s AI infrastructure at Google Brain and Core Systems. They were expertly placed to accelerate the impact of AI and founded Modular with the aim of reducing the complexity of AI and to make it, well, modular.</p>
+
+								<h3>Key Features:</h3>
+								<p>Up to 68000 times faster computation, yes, you read that correctly 68000, read on if you want to know how they got to that crazy speed increase. You can write everything in a single language with Mojo, eliminating the need for C++ or CUDA. This approach offers several advantages, including enhanced performance and error checking through type usage, compile-time metaprogramming to minimize boilerplate code, and the ability to create hardware-agnostic algorithms. Additionally, Mojo’s auto-tuning feature helps identify the best parameters for the target system.</p>
+								<p>Utilizing MLIR, Mojo enables developers to fully exploit vectors, threads, and AI hardware units. As a superset of Python, Mojo ensures compatibility with existing programs and libraries like Numpy and Matplotlib.</p>
+
+								<h3>Technical Details:</h3>
+								<p>If we consider the Mandelbrot algorithm to 1000 iterations on an AWS h3-standard-88 Intel Xeon pain python code takes 970 seconds, using numpy gives a 6x increase, using Scalar C++ give 9000x bringing the time down to 0.11s but using mojo🔥 gives just 0.0142s!</p>
+								<p>There is the MAX (Modular Accelerated Execution) Platform designed to be a modern AI software stack for any workload. It has been built on top of Mojo but contains a few other features, the MAX Engine and the MAX Serving.
+									The MAX Engine is a model inference runtime and library that executes all your pipelines on any hardware including TensorFlow and PyTorch models while the MAX Serving is a model serving library for the MAX Engine and can deploy in existing containerized systems.
+									If you want to use the MAX Engine or MAX Serving, you’ll need to be using Linux or WSL.
+									MAX is free to download locally for development and experimentation and can be deployed via the AWS BYOC could SaaS service which allows you to scale up to enormous LLM’s.</p>
+								<p>Some of the speedups for the most common LLM’s using MAX VS Pytorch are:</p>
+								<ul>
+									<li>GPT-2 Small Seqlen gets a 2 times speed increase on an AMD</li>
+									<li>Llama 2/3 gets a 4.1 times speed increase on an ARM</li>
+									<li>Mistral 7b gets a 2.5 times speedup on an AMD</li>
+									<li>Stable diffusion XL gets 2.5 times faster on an ARM processor.</li>
+								</ul>
+								<p>If you want to look at some more models <a href="https://www.modular.com/max/performance">this</a> is the link to their website and you can benchmark them locally to find out the speedup on your hardware.</p>
+
+								<h3>How To Get Started:</h3>
+								<p>If you’re using Ubuntu or macOS on Apple silicon, you’re in luck, the SDK is available to you with support for windows coming soon. If you’re on Windows you could use a container, remote Linux system or use their <a href="https://docs.modular.com/mojo/manual/get-started/#develop-in-the-mojo-playground">web playground</a>. If you’re using Visual Studio Code there is a Mojo <a href="https://marketplace.visualstudio.com/items?itemName=modular-mojotools.vscode-mojo">extension</a> available to provide a better developer experience.</p>
+								The system requirements for Linux are:
+								<ul>
+									<li>Ubuntu 20.04/22.04 LTS</li>
+									<li>x86–64 CPU (with SSE4.2 or newer) or AWS Graviton2/3 CPU</li>
+									<li>Minimum 8 GiB RAM</li>
+									<li>Python 3.8–3.11</li>
+									<li>g++ or clang++ C++ compiler</li>
+								</ul>								
+								and for a mac:
+								<ul>
+									<li>Apple silicon (M1 or M2 processor)</li>
+									<li>macOS Monterey (12) or later</li>
+									<li>Python 3.8–3.11</li>
+									<li>Command-line tools for Xcode, or Xcode</li>
+								</ul>
+								
+								To install the modular CLI tool, open a terminal and run:
+								<br>
+								<code>curl -s https://get.modular.com | sh -</code> <br>
+
+								Then, create a virtual environment with venv or conda:
+								<br>
+								<code>conda create -n mojo python=3.10 -y && conda activate mojo</code> <br>
+								
+								and install the SDK:
+								<br>
+								<code>modular install mojo</code> <br>
+
+								Set some environment variables with Bash or ZSH:
+								<br>
+								<code>MOJO_PATH=$(modular config mojo.path) \
+									&& BASHRC=$( [ -f "$HOME/.bash_profile" ] && echo "$HOME/.bash_profile" || echo "$HOME/.bashrc" ) \
+									&& echo 'export MODULAR_HOME="'$HOME'/.modular"' >> "$BASHRC" \
+									&& echo 'export PATH="'$MOJO_PATH'/bin:$PATH"' >> "$BASHRC" \
+									&& source "$BASHRC"</code> <br> <br>
+
+								To run a Mojo file without an IDE (of course, you could do it inside one too) create a file named “helloWorld.mojo” or “helloWorld.🔥” and define a main function like this:
+								<br>
+								<pre style="margin:0;">
+									<code>
+fn main():
+print("Hello, world!")
+									</code>
+								</pre>
+								<p>to run it, it’s the same as python, just type “mojo helloWorld.mojo”</p>
+
+
+								<p>There is much more detail on the language in their <a href="https://docs.modular.com/mojo/manual/get-started/hello-world">website</a> but that’s all I’m going to talk about here.</p>
+
+								<h3>Conclusion:</h3>
+								<p>This is certainly a very interesting project and has come a long way since I joined the news letter early last year and it has some massive tech companies behind it. If it continues to live up to it’s expectations, I have no doubt that it will massively accelerate the impact of AI, judging by their careers page are still growing fast. If you’ve had any experiences with this let me know in the comments.</p>
+								
 							</article>
 
 						<!-- Elements -->
